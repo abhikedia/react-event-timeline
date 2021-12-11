@@ -1,0 +1,29 @@
+#template {
+  max-width: 40vw;
+  margin-bottom: 6vh;
+  display: flex;
+  flex-direction: row;
+
+  .header {
+    font-weight: bold;
+    margin-bottom: 0.5vh;
+  }
+
+  .role {
+    font-size: 1.8rem;
+  }
+
+  .company {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .template-line {
+    position: relative;
+    right: 55px;
+    top: 65px;
+  }
+}

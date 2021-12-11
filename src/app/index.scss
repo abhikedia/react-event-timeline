@@ -1,0 +1,15 @@
+.individual-template {
+  display: flex;
+  column-gap: 20px;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
