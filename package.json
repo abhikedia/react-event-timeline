@@ -1,7 +1,7 @@
 {
   "name": "react-event-timeline",
   "version": "1.0.0",
-  "description": "Timeline react component with short description.",
+  "description": "React timeline component with short description.",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config ./webpack.config.js --mode development",
@@ -9,7 +9,10 @@
   },
   "keywords": [
     "timeline",
-    "event"
+    "event",
+    "experience",
+    "education",
+    "react"
   ],
   "author": "Abhishek Kedia",
   "license": "MIT",
