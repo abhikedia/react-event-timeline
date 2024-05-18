@@ -1,0 +1,49 @@
+#card-index {
+  .card-index {
+    &__internal {
+      width: 79px;
+      height: 69px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      border: 1px solid rgba(248, 126, 40, 0.55);
+    //   opacity: 0.7;
+      background: linear-gradient(
+        73deg,
+        rgba(27, 153, 248, 0) 0%,
+        rgba(255, 255, 255, 0.29) 97.51%
+      );
+    //   backdrop-filter: blur(13.5px);
+      z-index: 1;
+
+      &::after {
+        content: var(--number-content);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Fredoka", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+
+        position: relative;
+        bottom: 8px;
+        left: 14px;
+        width: 79px;
+        z-index: 2;
+        height: 69px;
+        flex-shrink: 0;
+        border: 1px solid rgba(248, 126, 40, 0.55);
+        border-radius: 20px;
+        opacity: 0.7;
+        background: linear-gradient(
+          73deg,
+          rgba(27, 153, 248, 0) 0%,
+          rgba(255, 255, 255, 0.29) 97.51%
+        );
+        backdrop-filter: blur(13.5px);
+      }
+    }
+  }
+}

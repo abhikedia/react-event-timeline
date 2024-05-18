@@ -1,0 +1,20 @@
+#timeline-mobile {
+  display: flex;
+  margin-top: 6rem;
+  column-gap: 5rem;
+
+  .timeline {
+    &__line {
+      width: 10px;
+      border-radius: 85px;
+      position: relative;
+      top: -65px;
+    }
+
+    &__items {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10rem;
+    }
+  }
+}

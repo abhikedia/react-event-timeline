@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 1350px;
+  margin-top: 6rem;
+}
+
+.cards {
+  display: flex;
+  position: relative;
+}
+
+.align-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img {
+  top: 60px;
+  left: 43%;
+  position: absolute;
+}
+
+.flip {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,56 @@
+#card {
+  display: flex;
+  flex-direction: column;
+  color: #ececec;
+  width: 555px;
+  text-align: left;
+  row-gap: 37px;
+  margin-top: -4rem;
+
+  @media (max-width: 475px) {
+    width: auto;
+    // margin-top: 5rem;
+  }
+}
+
+.card__heading {
+  all: unset;
+  font-family: "Fredoka", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  width: 405px;
+  font-weight: 400;
+  line-height: 110%;
+
+  @media (max-width: 475px) {
+    font-size: 35px;
+  }
+}
+
+.card__description {
+  all: unset;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  width: 500px;
+  font-weight: 300;
+  line-height: 110%;
+  margin-left: auto;
+
+  @media (max-width: 475px) {
+    font-size: 24px;
+    line-height: 130%;
+  }
+}
+
+.left {
+  align-items: start;
+}
+
+.right {
+  align-items: end;
+}
+
+.right .card__heading {
+  text-align: right;
+}
