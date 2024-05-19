@@ -5,7 +5,7 @@ import scss from 'rollup-plugin-scss';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  input: 'src/export.ts',
+  input: 'src/index.ts',
   output: {
     file: 'dist/index.js',
     format: 'cjs',

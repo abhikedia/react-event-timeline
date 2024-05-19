@@ -1,10 +1,9 @@
 {
-  "name": "react-timeline",
+  "name": "react-event-timeline",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "main": "dist/index.js",
-  "module": "src/export.ts",
+  "module": "src/index.ts",
   "files": [
     "dist"
   ],
