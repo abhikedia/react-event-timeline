@@ -3,6 +3,10 @@
   flex-direction: column;
   margin-top: 6rem;
   width: inherit;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .cards {
