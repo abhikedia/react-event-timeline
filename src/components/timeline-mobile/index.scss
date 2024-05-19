@@ -3,6 +3,15 @@
   margin-top: 6rem;
   column-gap: 5rem;
 
+  @media (min-width: 769px) {
+    display: none;
+  }
+
+  @media (max-width: 470px) {
+    column-gap: 2rem;
+    padding: 0 1rem;
+  }
+
   .timeline {
     &__line {
       width: 10px;

@@ -13,8 +13,8 @@ const TimelineMobile = ({
   const ref = useRef<HTMLDivElement>(null);
 
   useLayoutEffect(() => {
-    const height = ref.current?.offsetHeight ?? 0;
-    setHeight(height);
+    const _height = ref.current?.clientHeight ?? 0;
+    setHeight(_height);
   }, [ref]);
 
   const lineStyle = {

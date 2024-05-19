@@ -9,7 +9,6 @@
 
   @media (max-width: 475px) {
     width: auto;
-    // margin-top: 5rem;
   }
 }
 
@@ -23,7 +22,8 @@
   line-height: 110%;
 
   @media (max-width: 475px) {
-    font-size: 35px;
+    width: auto;
+    font-size: 30px;
   }
 }
 
@@ -38,7 +38,8 @@
   margin-left: auto;
 
   @media (max-width: 475px) {
-    font-size: 24px;
+    width: auto;
+    font-size: 18px;
     line-height: 130%;
   }
 }
@@ -54,3 +55,4 @@
 .right .card__heading {
   text-align: right;
 }
+

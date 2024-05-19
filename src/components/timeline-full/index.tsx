@@ -15,7 +15,7 @@ const TimelineFull = ({
   colorEnd = "#F87E28",
 }: ITimeline) => {
   return (
-    <div className="App">
+    <div id="app" className="App">
       {items.map((item, index) => (
         <div
           key={index}
